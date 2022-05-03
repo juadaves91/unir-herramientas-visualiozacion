@@ -1,0 +1,119 @@
+[
+    {
+        "Agno": 2021,
+        "Periodo": "Día 24 de enero",
+        "Parametro": "Día 24 de enero",
+        "ValorDosisAdministrada": 1131805,
+        "ValorReaccionesAdversas": 1555,        
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 21 de febrero",
+        "Parametro": "Día 21 de febrero",
+        "ValorDosisAdministrada": 3058776,
+        "ValorReaccionesAdversas": 6266,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 21 de marzo",
+        "Parametro": "Día 21 de marzo",
+        "ValorDosisAdministrada": 6125119,
+        "ValorReaccionesAdversas": 11182,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 25 de abril",
+        "Parametro": "Día 25 de abril",
+        "ValorDosisAdministrada": 14290507,
+        "ValorReaccionesAdversas": 17297,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 30 de mayo",
+        "Parametro": "Día 30 de mayo",
+        "ValorDosisAdministrada": 26227825,
+        "ValorReaccionesAdversas": 24491, 
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 11 de julio",
+        "Parametro": "Día 11 de julio",
+        "ValorDosisAdministrada": 47780916,
+        "ValorReaccionesAdversas": 41751,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 5 de septiembre",
+        "Parametro": "Día 5 de septiembre",
+        "ValorDosisAdministrada": 66835878,
+        "ValorReaccionesAdversas": 46573,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 3 de octubre",
+        "Parametro": "Día 3 de octubre",
+        "ValorDosisAdministrada": 70186758,
+        "ValorReaccionesAdversas": 46573, 
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 14 de noviembre",
+        "Parametro": "Día 14 de noviembre",
+        "ValorDosisAdministrada": 71746002,
+        "ValorReaccionesAdversas": 50824,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2021,
+        "Periodo": "Día 12 de diciembre",
+        "Parametro": "Día 12 de diciembre",
+        "ValorDosisAdministrada": 72396742,
+        "ValorReaccionesAdversas": 53407,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2022,
+        "Periodo": "Día 9 de enero",
+        "Parametro": "Día 9 de enero",
+        "ValorDosisAdministrada": 80109445,
+        "ValorReaccionesAdversas": 55455,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2022,
+        "Periodo": "Día 6 de febrero",
+        "Parametro": "Día 6 de febrero",
+        "ValorDosisAdministrada": 97044262,
+        "ValorReaccionesAdversas": 60030,  
+        "Estado": null,
+        "Notas": null
+    },
+    {
+        "Agno": 2022,
+        "Periodo": "Día 6 de marzo",
+        "Parametro": "Día 6 de marzo",
+        "ValorDosisAdministrada": 99455472,
+        "ValorReaccionesAdversas": 64427,  
+        "Estado": null,
+        "Notas": null
+    }
+]
