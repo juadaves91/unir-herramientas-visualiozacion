@@ -1,0 +1,18 @@
+body{
+    font-family: serif
+}
+
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
