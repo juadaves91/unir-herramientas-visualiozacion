@@ -1,42 +1,90 @@
 <html>
-  <head>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <script src="grafico.js"></script>
-  </head>
-  <body>
-    <div style="min-height:100vh; display:flex; flex-direction:column; 
-            justify-content:space-between;">
-      <div>
-          <img src="https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo.svg" width="200" height="100">
-          
-          
-          <header> <center><h1>Actividad grupal D3.js</h1></center> </header>
-          <article> <center><h2>Graficos de tendencia con D3:</h2></center></article>
-          
-          <div id=div_graficos_d3>
-          </div>
-          
+   <head>
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+      <link rel="stylesheet" href="styles.css">
+      <script src="grafico1.js"></script>
+      <script src="grafico2.js"></script>
+   </head>
+   <body>
+      <div style="min-height:100vh; display:flex; flex-direction:column; 
+         justify-content:space-between;">
+        
+            <div id="header_container">
+               <img src="https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo_white.svg" width="200" height="100">
+                <!--https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo.svg-->
+               <header>
+                  <center>
+                     <h1>Actividad grupal D3.js</h1>
+                  </center>
+               </header>
+               <article>
+                  <center>
+                     <h2>Graficos con D3:</h2>
+                  </center>
+               </article>
+            </div>
+             
+            <!-- Contenedor -->
+            <div id="div_graficos_container">
+                
+               <div id="divTile">
+                  <center><b>Muertos por coronavirus en España los ultimos 120 días según la fecha de definición</b></center>
+               </div>
+               <div id=div_graficos_d3_n1>
+                  <!-- Grafico 1 D3 será agregados desde JavaScript "grafico1.js"-->
+               </div>
+               <div id="divFooterGrafico1" class="sub_div">
+                  <center><i><b>Datos tomados de:</b> Ministerio de Sanidad, <a href="https://www.epdata.es/datos/vacunas-contra-coronavirus-datos-graficos/571/espana/106?accion=3">https://www.epdata.es/datos/vacunas-contra-coronavirus-datos-graficos/571/espana/106?accion=3</a></i></center>
+               </div>
+                
+                
+               <div id="divTile">
+                  <center><b>Efectos adversos notificados tras la administracion de la vacuna contra el coronavirus en España (Ultimos 3 meses 24 anero 2022 - 6 marzo 2022)</b></center>
+               </div>
+               <div id=div_graficos_d3_n2>
+                  <!-- Grafico 2 D3 será agregados desde JavaScript "grafico2.js"-->
+               </div>
+               <div id="divFooterGrafico1" class="sub_div" style="padding-bottom: 20px;">
+                  <center><i><b>Datos tomados de:</b> Ministerio de Sanidad, Servicios Sociales e Igualdad, <a href="https://www.epdata.es/datos/coronavirus-china-datos-graficos/498">https://www.epdata.es/datos/coronavirus-china-datos-graficos/498</a></i></center>
+               </div>
+      
+                <!--
+                <div>
+                  <svg width="960" height="500">
+                    <g transform="translate(80,80)">
+                        <circle r="40" stroke="black" fill="white"></circle>
+                        <text dx="-20">Node 1</text>
+                    </g>
+                    <g transform="translate(200,80)">
+                        <circle r="60" stroke="black" fill="white"></circle>
+                        <text dx="-20">Node 2</text>
+                    </g>
+                    <g transform="translate(380,80)">
+                        <circle r="80" stroke="black" fill="white"></circle>
+                        <text dx="-20">Node 3</text>
+                    </g>
+                </svg>
+                </div>-->
+                
+                
+         <footer>
+            <img src="https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo_white.svg" width="200" height="100">
+            <p>Autor 1: Juan David Escobar Escobar <br>
+               <a style="color: skyblue" href="mailto:juandavid.escobar376@comunidadunir.net">juandavid.escobar376@comunidadunir.net</a>
+            </p>
+            <p>Autor 2: William Ramiro Ríos Henao <br>
+               <a style="color: skyblue" href="mailto:williamramiro.rios727@comunidadunir.net
+                  ">williamramiro.rios727@comunidadunir.net </a>
+            </p>
+            <p>Autor 3: Juan Manuel Bautista Correa <br>
+               <a style="color: skyblue" href="mailto:juanmanuel.bautista496@comunidadunir.net
+                  ">juanmanuel.bautista496@comunidadunir.net </a>
+            </p>
+            <p>Autor 4:  Andrés Felipe Leal Mora <br>
+               <a style="color: skyblue" href="mailto:andresfelipe.leal987@comunidadunir.net">andresfelipe.leal987@comunidadunir.net</a>
+            </p>
+         </footer>
       </div>
-     
-      <footer>
-         <img src="https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo_white.svg" width="200" height="100">
-          
-          
-        <p>Autor 1: Juan David Escobar Escobar <br>
-          <a style="color: skyblue" href="mailto:juandavid.escobar376@comunidadunir.net">juandavid.escobar376@comunidadunir.net</a>
-        </p>
-        <p>Autor 2: William Ramiro <br>
-          <a style="color: skyblue" href="mailto:williamramiro.rios727@comunidadunir.net">williamramiro.rios727@comunidadunir.net</a>
-        </p>
-        <p>Autor 3: William Ramiro Ríos Henao <br>
-          <a style="color: skyblue" href="mailto:juanmanuel.bautista496@comunidadunir.net
-">juanmanuel.bautista496@comunidadunir.net </a>
-        </p>
-        <p>Autor 4: Juan Manuel Bautista Correa <br>
-          <a style="color: skyblue" href="mailto:andresfelipe.leal987@comunidadunir.net">andresfelipe.leal987@comunidadunir.net</a>
-        </p>
-      </footer>
-    </div>
-  </body>
+       
+   </body>
 </html>
