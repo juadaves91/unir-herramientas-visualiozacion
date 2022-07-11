@@ -1,0 +1,41 @@
+{
+    "grupos": [
+        
+        { 
+            "x" : 1000,
+            "grupo" : "aguilas"
+        },
+        { 
+            "x" : 500,
+            "grupo" : "tiburones"
+        },        
+        { 
+            "x" : 600,
+            "grupo" : "Leones"
+        },        
+        { 
+            "x" : 1200,
+            "grupo" : "Los Cazadores"
+        },        
+        { 
+            "x" : 400,
+            "grupo" : "Los invencibles"
+        },        
+        { 
+            "x" : 350,
+            "grupo" : "tiradores"
+        },        
+        { 
+            "x" : 200,
+            "grupo" : "gigantes"
+        },        
+        { 
+            "x" : 100,
+            "grupo" : "Los positivos"
+        },        
+        { 
+            "x" : 800,
+            "grupo" : "Los tesos"
+        }        
+    ]   
+}
