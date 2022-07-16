@@ -1,0 +1,37 @@
+{
+    "alumnos":[
+        {
+            "alumno":"Nico",
+            "nota":2, 
+            "ranking":450
+        },
+        {   "alumno":"Juan",
+            "nota":4,
+            "ranking":400
+        },
+        {   "alumno":"Andres",
+            "nota":5,
+            "ranking":300
+        },
+        {   "alumno":"Ana",
+            "nota":6,
+            "ranking":200
+        },
+        {   "alumno":"Carolina",
+            "nota":7,
+            "ranking":180
+        },
+        {   "alumno":"Erica",
+            "nota":8,
+            "ranking":150
+        },
+        {   "alumno":"Fabio",
+            "nota":9,
+            "ranking":100
+        },
+        {   "alumno":"Juan David Escobar",
+            "nota":10,
+            "ranking":50
+        }
+    ]
+}
